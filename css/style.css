@@ -47,10 +47,10 @@
   .next-step-left, .next-step-left-orange  {
     height: 10vw!important;
     font-size: 4vw!important;
-    width:  65%!important;
+    width:  65%;
   }
   .arrow {
-    margin-left: 70%!important;
+    margin-left: 70%;
   }
   .footerResp {
     margin-top: 2rem!important;
@@ -96,7 +96,7 @@
 }
 @media screen and (min-width: 700px) { 
   .img-responsive {
-    width: 85%!important;
+    width: 85%;
   }
   .incomeCells {
     width: 42%!important;
@@ -142,10 +142,10 @@
   .next-step-left, .next-step-left-orange  {
     height: 10vw!important;
     font-size: 4vw!important;
-    width:  65%!important;
+    width:  65%;
   }
   .arrow {
-    margin-left: 70%!important;
+    margin-left: 70%;
   }
   .footerResp {
     margin-top: 2rem!important;
@@ -187,7 +187,7 @@
 }
 @media screen and (min-width: 900px) { 
   .img-responsive {
-    width: 80%!important;
+    width: 80%;
   }
   .incomeCells {
     width: 39%!important;
@@ -205,7 +205,7 @@
   .img-text {
     margin-right: 1rem!important;
     margin-bottom: 1rem!important;
-    font-size: 0.8vw!important;
+    font-size: 0.8vw;
   }
   .drinkingBuddies {
     margin-top: -3rem!important; 
@@ -231,10 +231,10 @@
   .next-step-left, .next-step-left-orange  {
     height: 2.2vw!important;
     font-size: 1.2vw!important;
-    width:  25%!important;
+    width:  25%;
   }
   .arrow {
-    margin-left: 27%!important;
+    margin-left: 27%;
   }
   .footerResp {
     margin-top: 0rem!important;
@@ -276,7 +276,7 @@
 }
 @media screen and (min-width: 1000px) { 
   .img-responsive {
-    width: 75%!important;
+    width: 75%;
   }
   .incomeCells {
     width: 36%!important;
@@ -293,10 +293,10 @@
   .img-text {
     margin-right: 1rem!important;
     margin-bottom: 1rem!important;
-    font-size: 0.8vw!important;
+    font-size: 0.8vw;
   }
   .drinkingBuddies {
-    margin-top: -3rem!important; 
+    margin-top: -2rem!important; 
     /*margin-bottom: 1rem!important;*/
   }
   .marginTopResp{
@@ -319,16 +319,16 @@
   .next-step-left, .next-step-left-orange  {
     height: 2.2vw!important;
     font-size: 1.2vw!important;
-    width:  25%!important;
+    width:  25%;
   }
   .arrow {
-    margin-left: 27%!important;
+    margin-left: 27%;
   }
   .footerResp {
     margin-top: 0rem!important;
   }
   .respFontSize, .roomStack h6, th h5, .headerTitle, .sumStyle b, .fontStyle, .fontStyle h6 {
-    font-size: 0.8vw!important;
+    font-size: 1.1vw!important;
   }
   .headerTitle {
     text-align: center!important;
@@ -352,7 +352,7 @@
     margin-left: 0rem!important;
   }
   .langChooseResp {
-    width: 400px!important;
+    width: 1113px!important;
     margin-right: 0px!important;
     margin-left: 0px!important;
     margin-top: 0px!important;
@@ -622,9 +622,6 @@
   .navbar {
     height: 100px!important;
   }
-}
-.respFontSize{
-  /*font-size: 1vw!important;*/
 }
 .pdfDWND:hover {
   cursor: pointer;

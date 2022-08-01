@@ -72,7 +72,7 @@
 </div>
 <br/> <br/>
 <div class="next-step-left " id="down-to-cigarette">  <?php echo $lang['cigarette']; ?> </div> <!-- <i class="fas fa-angle-double-right"></i> -->
-<div class="arrow"></div>
+<div class="arrow" id="blueLine"></div>
 <div style="clear: both;"></div>
 <!-- cigarette -->
 <div id="cigarette" class="container-fluid  mt-5">
@@ -81,8 +81,8 @@
     <div class="col-sm-6 grid-style mt-5 input-text-right">
       <div class="row col-12 font-weight-bold respFontSize"><?php echo $lang['cigHead']; ?></div>
         <div class="row mb-2 text-center">
-          <div class="col-6 col-md-8"></div>
-          <div class="col-3 col-md-2 respFontSize">
+          <div class="col-6 col-md-8 responsive"></div>
+          <div class="col-3 col-md-2 respFontSize responsiveAmount">
             <?php echo $lang['cigaretteAmount']; ?>
           </div>
           <div class="col-3 col-md-2 respFontSize">
@@ -156,8 +156,8 @@
               <i class="fas fa-info-circle fa-info-circle2 info fa-1x" data-toggle="tooltip" data-placement="top" title="<?php echo $lang['cigHeadInfo']; ?>"></i>
             </div>
             <div class="row mb-2 mt-2 text-center">
-              <div class="col-6 col-md-8 "></div>
-              <div class="col-3 col-md-2 respFontSize">
+              <div class="col-6 col-md-8 responsive"></div>
+              <div class="col-3 col-md-2 respFontSize responsiveAmount">
                 <?php echo $lang['cigaretteAmount']; ?>
               </div>
               <div class="col-3 col-md-2 respFontSize">
@@ -254,8 +254,8 @@
           <div class="col-12 font-weight-bold respFontSize"><?php echo $lang['fuelTitle']; ?></div>
         </div>
         <div class="row mb-2 mt-2 text-center">
-          <div class="col-6 col-md-8 "></div>
-          <div class="col-3 col-md-2 respFontSize">
+          <div class="col-6 col-md-8 responsive"></div>
+          <div class="col-3 col-md-2 respFontSize responsiveAmount">
             <?php echo $lang['cigaretteAmount']; ?>
           </div>
           <div class="col-3 col-md-2 respFontSize">
