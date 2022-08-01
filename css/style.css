@@ -77,15 +77,19 @@
   .mainClacNameResp {
     font-size: 4vw!important;
     margin-top: 1rem!important;
-    margin-left: -1rem!important;
+    /* margin-left: auto; */
   }
   .langChooseResp {
     width: 100px!important;
-    margin-right: 100px!important;
-    margin-left: 40px!important;
+    /* margin-right: 100px!important;
+    margin-left: 40px!important; */
     margin-top: 10px!important;
     font-size: 4vw!important;
   }
+  /* .lang{
+     margin-right: auto!important;
+    margin-left: auto!important;
+  } */
   .navbar {
     height: 150px!important;
   }
@@ -168,12 +172,12 @@
   .mainClacNameResp {
     font-size: 4vw!important;
     margin-top: 1rem!important;
-    margin-left: -1rem!important;
+    margin-left: auto;
   }
   .langChooseResp {
     width: 100px!important;
-    margin-right: 100px!important;
-    margin-left: 40px!important;
+    /* margin-right: 100px!important;
+    margin-left: 40px!important; */
     margin-top: 10px!important;
     font-size: 4vw!important;
   }

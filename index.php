@@ -110,7 +110,7 @@ else{
       <div class="d-flex justify-content-center text-uppercase mainClacNameResp" style="font-size: 1.2vw;" >
         <?php echo $lang['name']; ?>
       </div>
-      <div class="d-flex justify-content-end langChooseResp" style="color: white; font-size: 1.2vw; width: 400px;" >
+      <div class=" lang d-flex justify-content-end langChooseResp" style="color: white; font-size: 1.2vw; width: 400px;" >
         <a id="lang_en" href="index.php?lang=en" style="color: white">EN</a>
         &nbsp;|&nbsp;
         <a id="lang_ka" href="index.php?lang=ka" style="color: white">GE</a>
