@@ -1,0 +1,14 @@
+var x={
+	"total": "14465.9",
+	"publicService":"1390.6",
+	"defense" : "807.3",
+	"security":"1240.5",
+	"economicActivity":"2987.7",
+	"environmentalProtection":"269.7",
+	"communalServices":"629.9",
+	"healthCare":"1327.8",
+	"culture":"574.8",
+	"education":"1904.4",
+	"socialProtection":"3333.2"
+	
+}

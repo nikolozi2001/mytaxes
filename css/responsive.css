@@ -1,0 +1,17 @@
+
+@media screen and (max-width: 1800px) {
+    .img-button {
+        line-height: 1.5vw;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .img-button {
+        line-height: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .img-button {
+        line-height: 2.5vw;
+    }
+}
