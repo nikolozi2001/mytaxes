@@ -117,12 +117,38 @@
         margin-right: -20px;
     }
 }
+
+@media screen and (max-width: 650px) {
+    .img-text{
+        margin-left: 10px !important;
+    }
+}
+
+
 @media screen and (max-width: 588px) {
     .mainLogoRep img {
         margin-left: -1rem !important;
     }
     .img-fluid.logo {
         margin: 0px !important;
+    }
+}
+
+@media screen and (max-width: 570px) {
+
+    .row{
+        max-width: 570px !important;
+    }
+
+    .col-6.col-md-8.responsive{
+        margin-right: 0px !important;
+    }
+    .col-3.col-md-2.respFontSize.responsiveAmount{
+        margin-right: 0px !important;
+    }
+
+    .col-6.col-md-8.responsive {
+        margin-right: 75px !important;
     }
 }
 
@@ -151,25 +177,46 @@
     .img-fluid.logo {
         margin: 0px !important;
     }
+
+
+    .d-flex.flex-row.container-fluid.pt-0.pb-mt-0.navbar-brand {
+        max-width: 18.75rem !important;
+    }
+    .d-flex.justify-content-start.navbar-brand.mainLogoRep {
+        max-width: 20.625rem !important;
+    }
+    .img-fluid.logo {
+        max-width: 19.6875rem !important;
+    }
+    .d-flex.flex-row.container-fluid.pt-0.pb-0.mt-0.navbar-brand {
+        max-width: 20.625rem !important;
+    }
+    .navbar.navbar-default.fixed-top {
+        max-width: 25rem !important;
+    }
+    .row{
+        max-width: 25rem !important;
+    }
 }
 
 @media screen and (max-width: 400px) {
     .d-flex.flex-row.container-fluid.pt-0.pb-mt-0.navbar-brand {
-        max-width: 300px !important;
+        max-width: 18.75rem !important;
     }
     .d-flex.justify-content-start.navbar-brand.mainLogoRep {
-        max-width: 330px !important;
+        max-width: 20.625rem !important;
     }
     .img-fluid.logo {
-        max-width: 315px !important;
+        max-width: 19.6875rem !important;
     }
     .d-flex.flex-row.container-fluid.pt-0.pb-0.mt-0.navbar-brand {
-        max-width: 330px !important;
+        max-width: 20.625rem !important;
     }
     .navbar.navbar-default.fixed-top {
-        max-width: 400px !important;
+        max-width: 25rem !important;
     }
     .row{
-        max-width: 400px !important;
+        max-width: 25rem !important;
     }
 }
+
