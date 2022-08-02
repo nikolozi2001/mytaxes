@@ -33,6 +33,19 @@
 
 /* breakponit */
 
+@media screen and (max-width: 899px) {
+    .social {
+        margin-top: 4.9vw;
+    }
+    .mainLogoRep img {
+        max-width: 500px!important;
+    }
+    .mainClacNameResp{
+        font-size: 3vw!important;
+        margin-top: 0rem!important;
+    }
+}
+
 @media screen and (min-width:769px) and (max-width: 899px) {
     .langChooseResp {
         margin-top: -30px!important;
@@ -88,10 +101,52 @@
 
 /* finished iPad responsive */
 
+/* started breakpoint */
+
+@media screen and (max-width:699px) {
+    .langChooseResp{
+        margin-top: -42px!important;
+    }
+}
+
+@media screen and (max-width: 694px) {
+    .langChooseResp {
+        margin-top: -33px!important;
+        margin-right: -20px;
+    }
+}
+@media screen and (max-width: 588px) {
+    .mainLogoRep img {
+        margin-left: -1rem !important;
+    }
+    .img-fluid.logo {
+        margin: 0px!important;
+    }
+}
+
 /* started google duo responsive */
 
 @media screen and (max-width: 540px) {
     .langChooseResp {
         margin-top: -37px!important;
+    }
+}
+
+/* started iPhone XR responsive */
+
+@media screen and (max-width: 414px) {
+    .img-text {
+        font-size: 11px!important;
+        margin-left: 11px;
+        line-height: 0.7rem;
+    }
+    .langChooseResp{
+        margin-top: -20px!important;
+    }
+    .mainLogoRep img {
+        margin-left: -1rem !important;
+    }
+    .img-fluid.logo {
+        margin: 0px!important;
     }
 }
