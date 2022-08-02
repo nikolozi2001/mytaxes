@@ -31,7 +31,22 @@
     }
 }
 
+/* breakponit */
 
+@media screen and (min-width:769px) and (max-width: 899px) {
+    .langChooseResp {
+        margin-top: -30px!important;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width: 820px){
+    .mainLogoRep img {
+        max-width: 400px!important;
+    }
+    .mainClacNameResp {
+        margin-top: 0rem!important;
+    }
+}
 
 /* started iPad responsive  */
 
@@ -73,3 +88,10 @@
 
 /* finished iPad responsive */
 
+/* started google duo responsive */
+
+@media screen and (max-width: 540px) {
+    .langChooseResp {
+        margin-top: -37px!important;
+    }
+}
