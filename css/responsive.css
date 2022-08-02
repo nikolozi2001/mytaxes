@@ -17,16 +17,18 @@
 
 /* started iPad pro responsive */
 @media screen and (max-width: 1024px) {
-    .langChooseResp{
-        width: 69.5625rem!important;
+    .langChooseResp {
+        width: 69.5625rem !important;
     }
     .img-responsive {
-        width: 100%!important;
+        width: 100% !important;
     }
-    #blueLine, .arrow{
-        margin-left: 94%!important;
+    #blueLine,
+    .arrow {
+        margin-left: 94% !important;
     }
-    .next-step-left, .next-step-left-orange {
+    .next-step-left,
+    .next-step-left-orange {
         width: 90% !important;
     }
 }
@@ -38,26 +40,26 @@
         margin-top: 4.9vw;
     }
     .mainLogoRep img {
-        max-width: 500px!important;
-    }
-    .mainClacNameResp{
-        font-size: 3vw!important;
-        margin-top: 0rem!important;
-    }
-}
-
-@media screen and (min-width:769px) and (max-width: 899px) {
-    .langChooseResp {
-        margin-top: -30px!important;
-    }
-}
-
-@media screen and (min-width:701px) and (max-width: 820px){
-    .mainLogoRep img {
-        max-width: 400px!important;
+        max-width: 500px !important;
     }
     .mainClacNameResp {
-        margin-top: 0rem!important;
+        font-size: 3vw !important;
+        margin-top: 0rem !important;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 899px) {
+    .langChooseResp {
+        margin-top: -30px !important;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 820px) {
+    .mainLogoRep img {
+        max-width: 400px !important;
+    }
+    .mainClacNameResp {
+        margin-top: 0rem !important;
     }
 }
 
@@ -77,7 +79,7 @@
     .img-responsive {
         width: 101% !important;
     }
-    
+
     .img-text {
         font-size: 13px !important;
         margin-left: -25px;
@@ -88,14 +90,14 @@
     .next-step-left {
         width: 90% !important;
     }
-    .responsive{
-        margin-left: -77px!important;
+    .responsive {
+        margin-left: -77px !important;
     }
-    .responsiveAmount{
-        margin-right: 65px!important;
+    .responsiveAmount {
+        margin-right: 65px !important;
     }
-    .next-step-left-orange{
-        width: 90%!important;
+    .next-step-left-orange {
+        width: 90% !important;
     }
 }
 
@@ -103,15 +105,15 @@
 
 /* started breakpoint */
 
-@media screen and (max-width:699px) {
-    .langChooseResp{
-        margin-top: -42px!important;
+@media screen and (max-width: 699px) {
+    .langChooseResp {
+        margin-top: -42px !important;
     }
 }
 
 @media screen and (max-width: 694px) {
     .langChooseResp {
-        margin-top: -33px!important;
+        margin-top: -33px !important;
         margin-right: -20px;
     }
 }
@@ -120,7 +122,7 @@
         margin-left: -1rem !important;
     }
     .img-fluid.logo {
-        margin: 0px!important;
+        margin: 0px !important;
     }
 }
 
@@ -128,7 +130,7 @@
 
 @media screen and (max-width: 540px) {
     .langChooseResp {
-        margin-top: -37px!important;
+        margin-top: -37px !important;
     }
 }
 
@@ -136,17 +138,38 @@
 
 @media screen and (max-width: 414px) {
     .img-text {
-        font-size: 11px!important;
+        font-size: 11px !important;
         margin-left: 11px;
         line-height: 0.7rem;
     }
-    .langChooseResp{
-        margin-top: -20px!important;
+    .langChooseResp {
+        margin-top: -5px !important;
     }
     .mainLogoRep img {
         margin-left: -1rem !important;
     }
     .img-fluid.logo {
-        margin: 0px!important;
+        margin: 0px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .d-flex.flex-row.container-fluid.pt-0.pb-mt-0.navbar-brand {
+        max-width: 300px !important;
+    }
+    .d-flex.justify-content-start.navbar-brand.mainLogoRep {
+        max-width: 330px !important;
+    }
+    .img-fluid.logo {
+        max-width: 315px !important;
+    }
+    .d-flex.flex-row.container-fluid.pt-0.pb-0.mt-0.navbar-brand {
+        max-width: 330px !important;
+    }
+    .navbar.navbar-default.fixed-top {
+        max-width: 400px !important;
+    }
+    .row{
+        max-width: 400px !important;
     }
 }
