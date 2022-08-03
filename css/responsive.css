@@ -285,6 +285,14 @@
     }
 }
 
+/* started iPhone X responsive */
+
+@media screen and (max-width: 375px) {
+    .img-text{
+        font-size: 9px !important;
+    }
+}
+
 /* started iPhone 12 mini responsive  */
 
 @media screen and (max-width: 360px) {
