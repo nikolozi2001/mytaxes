@@ -8,6 +8,8 @@
   <title><?php echo $lang['title'] ?></title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" type="image/png" href="https://www.geostat.ge/img/favicon.ico" />
   <!-- for Facebook share -->
 <?php  
 
