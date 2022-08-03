@@ -56,40 +56,40 @@ $("#step4_4").on('keyup change', function(){
 });
 $("#step5_1").on('keyup change', function(){
 	// if($("#step5_1_2" ).val()==""){
-	// 	$("#step5_1_2" ).val("2.88")
+	// 	$("#step5_1_2" ).val("3.99")
 	// }
 	if($("#step5_1_2" ).val()==""){
-		$("#step5_1_2" ).val($("#step5_1" ).val()*2.88)
+		$("#step5_1_2" ).val($("#step5_1" ).val()*3.99)
 	} else if($("#step5_1" ).val()=="") {
-		$("#step5_1_2" ).val("2.88")
+		$("#step5_1_2" ).val("3.99")
 	} else {
-		var testoval2 = ($("#step5_1").val()*2.88).toFixed(2)
+		var testoval2 = ($("#step5_1").val()*3.99).toFixed(2)
 		$("#step5_1_2" ).val(testoval2);
 	}
 });
 $("#step5_3").on('keyup change', function(){
 	// if($("#step5_3_2" ).val()==""){
-	// 	$("#step5_3_2" ).val("2.83")
+	// 	$("#step5_3_2" ).val("4.57")
 	// }	
 	if($("#step5_3_2" ).val()==""){
-		$("#step5_3_2" ).val($("#step5_3" ).val()*2.83)
+		$("#step5_3_2" ).val($("#step5_3" ).val()*4.57)
 	} else if($("#step5_3" ).val()=="") {
-		$("#step5_3_2" ).val("2.83")
+		$("#step5_3_2" ).val("4.57")
 	} else {
-		var testoval2 = ($("#step5_3").val()*2.83).toFixed(2)
+		var testoval2 = ($("#step5_3").val()*4.57).toFixed(2)
 		$("#step5_3_2" ).val(testoval2);
 	}
 });
 $("#step5_5").on('keyup change', function(){
 	// if($("#step5_5_2" ).val()==""){
-	// 	$("#step5_5_2" ).val("1.40")
+	// 	$("#step5_5_2" ).val("1.69")
 	// }	
 	if($("#step5_5_2" ).val()==""){
-		$("#step5_5_2" ).val($("#step5_5" ).val()*1.40)
+		$("#step5_5_2" ).val($("#step5_5" ).val()*1.69)
 	} else if($("#step5_5" ).val()=="") {
-		$("#step5_5_2" ).val("1.40")
+		$("#step5_5_2" ).val("1.69")
 	} else {
-		var testoval2 = ($("#step5_5").val()*1.40).toFixed(2)
+		var testoval2 = ($("#step5_5").val()*1.69).toFixed(2)
 		$("#step5_5_2" ).val(testoval2);
 	}
 });
@@ -153,9 +153,9 @@ $(".calc").on('keyup change', function(){
 	var step5_1_price;
 	var step5_3_price;
 	var step5_5_price;
-	step5_1_2==0 ? step5_1_price=2.88 : step5_1_price=step5_1_2; //step5_1_2
-	step5_3_2==0 ? step5_3_price=2.83 : step5_3_price=step5_3_2; //step5_3_2
-	step5_5_2==0 ? step5_5_price=1.40 : step5_5_price=step5_5_2; //step5_5_2
+	step5_1_2==0 ? step5_1_price=3.99 : step5_1_price=step5_1_2; //step5_1_2
+	step5_3_2==0 ? step5_3_price=4.57 : step5_3_price=step5_3_2; //step5_3_2
+	step5_5_2==0 ? step5_5_price=1.69 : step5_5_price=step5_5_2; //step5_5_2
 	// var step5= (step5_1*3) + (step5_3*2.8) + (step5_5*2.2);
 	var step5= ((step5_1_2) + (step5_3_2) + (step5_5_2)).toFixed(2);
 	$( "#step5_total" ).val(step5);

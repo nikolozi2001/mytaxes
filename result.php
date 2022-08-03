@@ -55,9 +55,7 @@ th h5{
 .headerTitle {
   font-size: 1.2vw;
 }
-.row{
-  
-}
+
 .rowCustom {
   margin-top:80px;
   background-color:#aac5e2;
