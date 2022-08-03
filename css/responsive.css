@@ -160,6 +160,31 @@
     }
 }
 
+/* started iPhone 12/13 Pro Max responsive */
+
+@media screen and (max-width: 428px) {
+    .respFontSize {
+        font-size: 2.7vw!important;
+    }
+
+    .col-6.col-md-8.font-weight-bold{
+        font-size: 12px !important;
+    }
+
+    .links.respFontSize{
+        margin-top: 41px;
+    }
+    
+    .img-fluid.logo{
+        margin-left: -50px!important;
+        width: 390px;
+    }
+    .langChooseResp {
+        margin-top: -27px !important;
+        margin-right: -40px;
+    }
+}
+
 /* started iPhone XR responsive */
 
 @media screen and (max-width: 414px) {
@@ -178,6 +203,21 @@
         margin: 0px !important;
     }
 
+    .d-flex.justify-content-start.navbar-brand.mainLogoRep{
+        margin-left: -35px;
+    }
+
+    .respFontSize {
+        font-size: 2.7vw!important;
+    }
+
+    .col-6.col-md-8.font-weight-bold{
+        font-size: 12px !important;
+    }
+
+    .links.respFontSize{
+        margin-top: 41px;
+    }
 
     .d-flex.flex-row.container-fluid.pt-0.pb-mt-0.navbar-brand {
         max-width: 18.75rem !important;
@@ -192,7 +232,7 @@
         max-width: 20.625rem !important;
     }
     .navbar.navbar-default.fixed-top {
-        max-width: 25rem !important;
+        max-width: 26rem !important;
     }
     .row{
         max-width: 25rem !important;
@@ -220,3 +260,30 @@
     }
 }
 
+/* started iPhone 12 Pro responsive */
+
+@media screen and (max-width: 390px) {
+    .respFontSize {
+        font-size: 2.7vw!important;
+    }
+
+    .col-6.col-md-8.font-weight-bold{
+        font-size: 12px !important;
+    }
+
+    .col-6.col-md-8.responsive {
+        margin-right: 60px !important;
+    }
+
+    .d-flex.justify-content-start.navbar-brand.mainLogoRep{
+        margin-left: -35px;
+    }
+}
+
+/* started iPhone 12 mini responsive  */
+
+@media screen and (max-width: 360px) {
+    .img-text{
+        font-size: 9px !important;
+    }
+}
