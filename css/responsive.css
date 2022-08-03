@@ -111,6 +111,11 @@
     }
 }
 
+.links.respFontSize{
+    margin-top: 55px;
+}
+
+
 @media screen and (max-width: 694px) {
     .langChooseResp {
         margin-top: -33px !important;
@@ -172,7 +177,8 @@
     }
 
     .links.respFontSize{
-        margin-top: 41px;
+        margin-top: 44px;
+        width: 184px;
     }
     
     .img-fluid.logo{
@@ -221,7 +227,7 @@
     }
 
     .links.respFontSize{
-        margin-top: 41px;
+        margin-top: 44px;
     }
 
     .d-flex.flex-row.container-fluid.pt-0.pb-mt-0.navbar-brand {
