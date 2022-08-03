@@ -33,6 +33,12 @@
     }
 }
 
+@media screen and (min-width: 900px) {
+    .links.respFontSize {
+        margin-top: -3px !important;
+    }
+}
+
 /* breakponit */
 
 @media screen and (max-width: 899px) {
