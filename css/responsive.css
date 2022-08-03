@@ -183,6 +183,11 @@
         margin-top: -27px !important;
         margin-right: -40px;
     }
+    .img-text {
+        font-size: 11px !important;
+        margin-left: 11px;
+        line-height: 0.7rem;
+    }
 }
 
 /* started iPhone XR responsive */
