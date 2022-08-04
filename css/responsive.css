@@ -73,7 +73,7 @@
 
 @media screen and (max-width: 768px) {
     .mainClacNameResp {
-        margin-left: 0px !important;
+        margin-left: 67px !important;
     }
     .social {
         margin-top: 40px;
@@ -84,6 +84,9 @@
     }
     .img-responsive {
         width: 101% !important;
+    }
+    .langChooseResp{
+        margin-top: -50px !important;
     }
 
     .img-text {
@@ -124,8 +127,21 @@
 
 @media screen and (max-width: 694px) {
     .langChooseResp {
-        margin-top: -33px !important;
+        margin-top: -42px !important;
         margin-right: -20px;
+    }
+    
+}
+
+@media screen and (max-width:667px) {
+    .langChooseResp {
+        margin-right: 24px;
+    }
+    .mainClacNameResp{
+        margin-left: 24px !important;
+    }
+    .mainLogoRep img {
+        margin-left: 1rem !important;
     }
 }
 
@@ -163,6 +179,76 @@
     }
 }
 
+/* started breakpint */
+
+
+@media screen and (max-width: 550px) {
+    .img-text{
+        font-size: 9px !important;
+    }
+    .img-fluid.logo {
+        max-width: 22.6875rem !important;
+    }
+
+    .langChooseResp {
+        margin-top: -36px !important;
+    }
+    .mainClacNameResp {
+        margin-left: -20px !important;
+    }
+
+    .links.respFontSize {
+        margin-left: -40px;
+        margin-top: 50px;
+    }
+
+    .navbar.navbar-default.fixed-top {
+        max-width: 33.5rem !important;
+    }
+    .img-text {
+        font-size: 9px !important;
+        line-height: 10px !important;
+        margin-left: 4px !important;
+    }
+    .col-5{
+        max-width: 30.666667%;
+    }
+    .col-5.col-md-4.d-flex.zeroPaddingResp{
+        margin-top: -0.9rem !important;
+        margin-left: 17px;
+    }
+
+    .calc.form-control.w-60.mt-1.form-control-sm{
+        margin-top: -6px !important;
+    }
+
+    #sumAmount{
+        margin-top: 15px !important;
+    }
+
+    #amount {
+        height: 31px !important;
+    }
+
+    .input-text-right input {
+        text-align: center;
+    }
+    .form-control{
+        padding: 0px !important;
+    }
+    .w-60 {
+        width: 60%!important;
+    }
+
+    .mt-1 {
+        margin-top: 0.4rem!important;
+    }
+
+    .arrow{
+        height: 30px;
+    }
+}
+
 /* started google duo responsive */
 
 @media screen and (max-width: 540px) {
@@ -182,21 +268,33 @@
         font-size: 12px !important;
     }
 
+    .arrow {
+        height: 40px;
+    }
+
+    .row.mb-3{
+        margin-bottom: 1.7rem !important;
+    } 
+
+
+    .row.mb-2.mt-2{
+        margin-top: 16px !important;
+    }
     .links.respFontSize{
         margin-top: 44px;
         width: 184px;
     }
     
     .img-fluid.logo{
-        margin-left: -50px!important;
-        width: 390px;
+        margin-left: -27px!important;
+        width: 350px;
     }
     .langChooseResp {
         margin-top: -27px !important;
         margin-right: -40px;
     }
     .img-text {
-        font-size: 11px !important;
+        font-size: 8px !important;
         margin-left: 11px;
         line-height: 0.7rem;
     }
@@ -206,12 +304,15 @@
 
 @media screen and (max-width: 414px) {
     .img-text {
-        font-size: 11px !important;
+        font-size: 7px !important;
         margin-left: 11px;
         line-height: 0.7rem;
     }
     .langChooseResp {
-        margin-top: -5px !important;
+        margin-top: -25px !important;
+    }
+    .mainClacNameResp {
+        margin-left: -25px !important;
     }
     .mainLogoRep img {
         margin-left: -1rem !important;
@@ -273,7 +374,7 @@
         max-width: 25rem !important;
     }
     .row{
-        max-width: 25rem !important;
+        max-width: 23rem !important;
     }
 }
 
@@ -283,6 +384,8 @@
     .respFontSize {
         font-size: 2.7vw!important;
     }
+
+    
 
     .col-6.col-md-8.font-weight-bold{
         font-size: 12px !important;
@@ -301,7 +404,7 @@
 
 @media screen and (max-width: 375px) {
     .img-text{
-        font-size: 9px !important;
+        font-size: 7px !important;
     }
 }
 
@@ -310,5 +413,217 @@
 @media screen and (max-width: 360px) {
     .img-text{
         font-size: 9px !important;
+    }
+    .img-fluid.logo {
+        max-width: 16.6875rem !important;
+    }
+
+    .langChooseResp {
+        margin-top: -24px !important;
+    }
+    .mainClacNameResp {
+        margin-left: -38px !important;
+    }
+
+    .links.respFontSize {
+        margin-left: -40px;
+        margin-top: 44px;
+    }
+
+    .navbar.navbar-default.fixed-top {
+        max-width: 22.5rem !important;
+    }
+    .img-text {
+        font-size: 6px !important;
+        line-height: 10px !important;
+        margin-left: 4px !important;
+    }
+    .col-5{
+        max-width: 30.666667%;
+    }
+    .col-5.col-md-4.d-flex.zeroPaddingResp{
+        margin-top: -0.9rem !important;
+        margin-left: 17px;
+    }
+
+    .calc.form-control.w-60.mt-1.form-control-sm{
+        margin-top: -6px !important;
+    }
+
+    #sumAmount{
+        margin-top: 15px !important;
+    }
+
+    #amount {
+        height: 31px !important;
+    }
+
+    .input-text-right input {
+        text-align: center;
+    }
+    .form-control{
+        padding: 0px !important;
+    }
+    .w-60 {
+        width: 60%!important;
+    }
+
+    .mt-1 {
+        margin-top: 0.4rem!important;
+    }
+
+    .arrow{
+        height: 30px;
+    }
+}
+
+/* breakpoint */
+
+@media screen and (max-width: 330px) {
+    .img-fluid.logo {
+        max-width: 15.6875rem !important;
+    }
+
+    .langChooseResp {
+        margin-top: -21px !important;
+    }
+    .mainClacNameResp {
+        margin-left: -49px !important;
+    }
+
+    .links.respFontSize {
+        margin-left: -55px;
+        margin-top: 44px;
+    }
+
+    .navbar.navbar-default.fixed-top {
+        max-width: 21rem !important;
+    }
+    .img-text {
+        font-size: 6px !important;
+        line-height: 10px !important;
+        margin-left: 4px !important;
+    }
+    .col-5{
+        max-width: 30.666667%;
+    }
+    .col-5.col-md-4.d-flex.zeroPaddingResp{
+        margin-top: -0.9rem !important;
+        margin-left: 17px;
+    }
+
+    .calc.form-control.w-60.mt-1.form-control-sm{
+        margin-top: -6px !important;
+    }
+
+    #sumAmount{
+        margin-top: 15px !important;
+    }
+
+    #amount {
+        height: 31px !important;
+    }
+
+    .input-text-right input {
+        text-align: center;
+    }
+    .form-control{
+        padding: 0px !important;
+    }
+    .w-60 {
+        width: 60%!important;
+    }
+
+    .mt-1 {
+        margin-top: 0.4rem!important;
+    }
+
+    .arrow{
+        height: 30px;
+    }
+
+}
+
+
+/* started iPhone 5/SE responsive */
+
+@media screen and (max-width: 320px) {
+    .img-fluid.logo {
+        max-width: 15.6875rem !important;
+    }
+
+    .langChooseResp {
+        margin-top: -21px !important;
+    }
+    .mainClacNameResp {
+        margin-left: -49px !important;
+    }
+
+    .links.respFontSize {
+        margin-left: -55px;
+        margin-top: 44px;
+    }
+
+    .navbar.navbar-default.fixed-top {
+        max-width: 20rem !important;
+    }
+
+    .img-text {
+        font-size: 6px !important;
+        line-height: 10px !important;
+        margin-left: 4px !important;
+    }
+
+    .col-5{
+        max-width: 30.666667%;
+    }
+    .col-5.col-md-4.d-flex.zeroPaddingResp{
+        margin-top: -1.9rem !important;
+        margin-left: 17px;
+    }
+
+    .calc.form-control.w-60.mt-1.form-control-sm{
+        margin-top: -6px !important;
+    }
+
+    #sumAmount{
+        margin-top: 15px !important;
+    }
+
+    #amount {
+        height: 31px !important;
+    }
+
+    .input-text-right input {
+        text-align: center;
+    }
+    .form-control{
+        padding: 0px !important;
+    }
+    .w-60 {
+        width: 60%!important;
+    }
+
+    .mt-1 {
+        margin-top: 0.4rem!important;
+    }
+
+    .arrow{
+        height: 30px;
+    }
+}
+
+/* breakpoint */
+
+@media screen and (max-width: 310px) {
+    .col-5.col-md-4.d-flex.zeroPaddingResp{
+        margin-left: 111px;
+    }
+    #sumAmount {
+        margin-top: -4px !important;
+    }
+
+    .calc.form-control.w-60.mt-1.form-control-sm {
+        margin-top: -25px !important;
     }
 }
