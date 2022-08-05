@@ -356,9 +356,16 @@
         margin-top: -37px !important;
         margin-right: 0px !important;
     }
+
+    .lang.d-flex.justify-content-end.langChooseResp {
+        margin-right: 22px !important;
+        margin-top: -35px !important;
+    }
 }
 
 /* started iPhone 12/13 Pro Max responsive */
+
+
 
 @media screen and (max-width: 428px) {
     .respFontSize {
@@ -437,6 +444,18 @@
     }
 }
 
+@media only screen and (max-width: 428px) {
+    .lang.d-flex.justify-content-end.langChooseResp {
+        margin-right: -30px !important;
+    }
+}
+
+
+@media only screen and (min-width:414px) and (max-width: 425px) {
+    .lang.d-flex.justify-content-end.langChooseResp {
+        margin-right: 37px !important;
+    }
+}
 /* started iPhone XR responsive */
 
 @media screen and (max-width: 414px) {
@@ -495,6 +514,12 @@
 
 }
 
+@media only screen and (max-width: 414px) {
+    .lang.d-flex.justify-content-end.langChooseResp {
+        margin-right: -24px !important;
+    }
+}
+
 /* samsung galaxy A51/71 and oneplus nord 2 responsive */
 @media screen and (max-width: 412px) {
     .img-fluid.logo{
@@ -502,6 +527,9 @@
     }
     .mainLogoRep img {
         max-width: 333px !important;
+    }
+    #amount {
+        margin-top: 22px !important;
     }
 }
 
@@ -557,6 +585,12 @@
     }
 }
 
+@media only screen and (max-width: 375px) {
+    .lang.d-flex.justify-content-end.langChooseResp {
+        margin-right: -37px !important;
+    }
+}
+
 /* started iPhone 12 mini responsive  */
 
 @media screen and (max-width: 360px) {
@@ -604,7 +638,7 @@
     }
 
     #amount {
-        height: 31px !important;
+        height: 21px !important;
     }
 
     .input-text-right input {
@@ -732,7 +766,7 @@
     }
 
     .calc.form-control.w-60.mt-1.form-control-sm{
-        margin-top: -6px !important;
+        margin-top: 4px !important;
     }
 
     #sumAmount{
@@ -740,11 +774,16 @@
     }
 
     #amount {
-        height: 31px !important;
+        height: 21px !important;
+        margin-top: 27px !important;
     }
 
     .input-text-right input {
         text-align: center;
+    }
+
+    #down-to-other {
+        position: unset;
     }
     .form-control{
         padding: 0px !important;
@@ -760,23 +799,63 @@
     .arrow{
         height: 30px;
     }
+    #step3_total, #step4_total, #step5_total {
+        margin-left: 0px;
+    }
+    .col-6.col-md-8.responsive {
+        margin-right: 29px !important;
+    }
+    .Tooltip{
+        top: -72px;
+        left: 30px;
+    }
 }
 
 /* breakpoint */
+
+@media only screen and (min-width:321px) and (max-width:390px) {
+    .col-6.col-md-8.responsive {
+        margin-right: 13px !important;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:377px) {
+    .Tooltip {
+        margin: 7px;
+    }
+}
+
+@media only screen and (min-width:311px) and (max-width:315px) {
+    .col-5.col-md-4.d-flex.zeroPaddingResp {
+        margin-left: 0px;
+    }
+    #amount {
+        margin-top: 33px !important;
+    }
+}
 
 @media screen and (max-width: 310px) {
     .col-5.col-md-4.d-flex.zeroPaddingResp{
         margin-left: 111px;
     }
     #sumAmount {
-        margin-top: -4px !important;
+        margin-top: 18px !important;
     }
 
     .calc.form-control.w-60.mt-1.form-control-sm {
-        margin-top: -25px !important;
+        margin-top: -3px !important;
+    }
+    .col-5.col-md-4.d-flex.zeroPaddingResp {
+        margin-top: -2.9rem !important;
     }
 }
 
+
+@media only screen and (min-width:281px) and (max-width: 310px) {
+    .col-5.col-md-4.d-flex.zeroPaddingResp {
+        margin-left: 91px;
+    }
+}
 /* started galaxy fold responsive */
 
 @media screen and (max-width: 280px) {
@@ -787,14 +866,19 @@
     .calc.form-control.w-60.mt-1.form-control-sm{
         height: 16px !important;
         width: 28px !important;
+        margin-top: -6px !important;
     }
+
     .img-text{
         line-height: 6px !important;
         margin-left: 2px !important;
     }
     .col-5.col-md-4.d-flex.zeroPaddingResp {
         margin-left: 92px;
-        margin-top: -17px !important;
+        margin-top: -36px !important;
+    }
+    #sumAmount {
+        margin-top: 10px !important;
     }
     #step3_total, #step4_total, #step5_total {
         margin-left: 0px;
@@ -816,5 +900,45 @@
     }
     .img-fluid.logo {
         max-width: 13.6875rem !important;
+    }
+}
+
+@media only screen and (min-width:220px) and (max-width:251px) {
+    .col-5.col-md-4.d-flex.zeroPaddingResp {
+        margin-left: 72px;
+        margin-top: -54px !important;
+    }
+    .img-text{
+        font-size: 4px !important;
+    }
+    #sumAmount {
+        margin-top: 28px !important;
+    }
+    #amount {
+        margin-top: 38px !important;
+    }
+    .calc.form-control.w-60.mt-1.form-control-sm {
+        
+        margin-top: 13px !important;
+    }
+}
+
+@media screen and (max-width: 219px) {
+    .col-5.col-md-4.d-flex.zeroPaddingResp {
+        margin-left: 77px;
+        margin-top: -51px !important;
+    }
+    .img-text{
+        font-size: 4px !important;
+    }
+    #sumAmount {
+        margin-top: 28px !important;
+    }
+
+    .calc.form-control.w-60.mt-1.form-control-sm {
+        margin-top: 9px !important;
+    }
+    #amount {
+        margin-top: 37px !important;
     }
 }
