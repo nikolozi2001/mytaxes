@@ -363,6 +363,20 @@
     }
 }
 
+@media screen and (min-width: 540px) and (max-width:900px) {
+
+    .lang.d-flex.justify-content-end.langChooseResp {
+        margin-right: 22px !important;
+        margin-top: -50px !important;
+    }
+}
+
+
+@media screen and (min-width:429px) and (max-width:550px) {
+    #income-label{
+        margin-right: -54px !important;
+    }
+}
 /* started iPhone 12/13 Pro Max responsive */
 
 
@@ -372,6 +386,13 @@
         font-size: 2.7vw!important;
     }
 
+    #income-label{
+        margin-right: -50px !important;
+    }
+
+    /* .row.col-12.font-weight-bold.respFontSize{
+        margin-top: -95px;
+    } */
     #amount, .otherAmount, .sumAmount{
         height: 20px !important;
         width: 35px !important;
