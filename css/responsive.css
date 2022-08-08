@@ -15,6 +15,10 @@
     }
 }
 
+#myPage{
+    overflow-x: hidden;
+}
+
 /* started iPad pro responsive */
 @media screen and (max-width: 1024px) {
     .langChooseResp {
