@@ -15,10 +15,13 @@
     }
 }
 
-#myPage{
-    overflow-x: hidden;
-}
 
+
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    .row.mb-3 {
+        margin-bottom: 1.7rem !important;
+    }
+}
 /* started iPad pro responsive */
 @media screen and (max-width: 1024px) {
     .langChooseResp {
@@ -51,6 +54,9 @@
     }
     .mb-2{
         margin-bottom: 0.9rem !important;
+    }
+    .col-sm-6.grid-style.mt-5.input-text-right{
+        margin-top: -51px !important;
     }
 }
 
@@ -277,6 +283,19 @@
 
 /* started breakpint */
 
+@media only screen and (min-width:551px) and (max-width:575px) {
+    .navbar.navbar-default.fixed-top {
+        width: 575px !important;
+    }
+    .d-flex.flex-row.container-fluid.pt-0.pb-0.mt-0.navbar-brand{
+        margin-left: -28px !important;
+    }
+    .lang.d-flex.justify-content-end.langChooseResp {
+        margin-right: 9px !important;
+        margin-top: -39px !important;
+    }
+}
+
 
 @media screen and (max-width: 550px) {
     .img-text{
@@ -376,6 +395,98 @@
 }
 
 
+@media only screen and (min-width:1270px) {
+    .lang.d-flex.justify-content-end.langChooseResp {
+        
+        margin-top: -10px !important;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1269px) {
+    .lang.d-flex.justify-content-end.langChooseResp{
+        margin-right: 0px !important;
+        margin-top: 0px !important;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1241px) {
+    .mainClacNameResp {
+        
+        margin-left: -3rem!important;
+    }
+}
+
+@media only screen and (min-width:901px) and (max-width:1199px) {
+    .lang.d-flex.justify-content-end.langChooseResp {
+        margin-top: -25px !important;
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width:900px) {
+    .lang.d-flex.justify-content-end.langChooseResp {
+        margin-top: -25px !important;
+    }
+}
+
+@media only screen and (min-width:668px) and (max-width:755px) {
+    .lang.d-flex.justify-content-end.langChooseResp {
+        margin-right: -4px !important;
+        margin-top: -42px !important;
+    }
+}
+
+@media only screen and (min-width:731px) and (max-width: 755px) {
+    .lang.d-flex.justify-content-end.langChooseResp {
+        margin-top: -47px !important;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width: 667px) {
+    .lang.d-flex.justify-content-end.langChooseResp {
+        margin-top: -37px !important;
+    }
+}
+
+@media only screen and (min-width:551px) and (max-width:575px) {
+    .lang.d-flex.justify-content-end.langChooseResp {
+        margin-right: 9px !important;
+        margin-top: -39px !important;
+    }
+}
+
+@media screen and (min-width:428px) and (max-width: 899px) {
+    #amount, #otherAmount, #sumAmount{
+        width: 41px !important;
+    }
+    .price.lead{
+        margin-right: 13px;
+    }
+}
+
+
+@media only screen and (min-width:551px) and (max-width:650px) {
+    #amount {
+        margin-top: 30px !important;
+    }
+    .col-5.col-md-4.d-flex.zeroPaddingResp{
+        margin-top: -1.5rem !important;
+    }
+}
+
+@media only screen and (min-width:540px) and (max-width:550px) {
+    .lang.d-flex.justify-content-end.langChooseResp {
+        
+        margin-top: -37px !important;
+    }
+}
+
+@media only screen and (min-width:510px) and (max-width:539px) {
+    .lang.d-flex.justify-content-end.langChooseResp {
+        margin-right: 27px !important;
+        margin-top: -36px !important;
+    }
+}
+
 @media screen and (min-width:429px) and (max-width:550px) {
     #income-label{
         margin-right: -54px !important;
@@ -437,7 +548,7 @@
         margin-right: -40px !important;
     }
     .lang.d-flex.justify-content-end.langChooseResp{
-        margin-right: -22px !important;
+        /* margin-right: -22px !important; */
         margin-top: -27px !important;
     }
     .img-text {
@@ -469,11 +580,11 @@
     }
 }
 
-@media only screen and (max-width: 428px) {
+/* @media only screen and (max-width: 428px) {
     .lang.d-flex.justify-content-end.langChooseResp {
         margin-right: -30px !important;
     }
-}
+} */
 
 
 @media only screen and (min-width:414px) and (max-width: 425px) {
@@ -602,6 +713,11 @@
     }
 }
 
+@media only screen and (min-width:390px) and (max-width: 390px) {
+    .lang.d-flex.justify-content-end.langChooseResp {
+        margin-right: -31px !important;
+    }
+}
 /* started iPhone X responsive */
 
 @media screen and (max-width: 375px) {
@@ -682,6 +798,9 @@
 
     .arrow{
         height: 30px;
+    }
+    #down-to-other{
+        position: unset;
     }
 }
 
@@ -833,6 +952,12 @@
     .Tooltip{
         top: -72px;
         left: 30px;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width: 320px) {
+    .lang.d-flex.justify-content-end.langChooseResp {
+        margin-top: -21px !important;
     }
 }
 
