@@ -592,14 +592,25 @@
         margin-right: 37px !important;
     }
 }
+
 /* started iPhone XR responsive */
+
+@media only screen and (min-width:412px) and (max-width:414px) {
+    .img-text.text-uppercase.headerFontSize{
+        margin-top: 20px;
+    }
+    .img-text.text-uppercase{
+        margin-top: 11px;
+    }
+}
 
 @media screen and (max-width: 414px) {
     .img-text {
-        font-size: 9px !important;
+        font-size: 5px !important;
         margin-left: 11px;
         line-height: 0.7rem;
     }
+    
     .langChooseResp {
         margin-top: -25px !important;
     }
@@ -693,6 +704,12 @@
 
 /* started iPhone 12 Pro responsive */
 
+@media only screen and (min-width:390px) and (max-width:395px) {
+    .img-text.text-uppercase{
+        margin-top: 11px;
+    }
+}
+
 @media screen and (max-width: 390px) {
     .respFontSize {
         font-size: 2.7vw!important;
@@ -730,9 +747,22 @@
     .lang.d-flex.justify-content-end.langChooseResp {
         margin-right: -37px !important;
     }
+    
+}
+
+@media only screen and (min-width:375px) and (max-width:375px) {
+    .img-text.text-uppercase{
+        margin-top: 5px;
+    }
 }
 
 /* started iPhone 12 mini responsive  */
+
+@media only screen and (min-width:360px) and (max-width:360px) {
+    .img-text.text-uppercase{
+        margin-top: 8px;
+    }
+}
 
 @media screen and (max-width: 360px) {
     .img-text{
